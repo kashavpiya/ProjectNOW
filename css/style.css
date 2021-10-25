@@ -78,14 +78,14 @@ main {
 .nav {
     background-color: #049344;
     height: 70px;
-    padding-top: 7px;
+    padding-top: 12px;
     text-align: center;
     margin-bottom: 25px;
 }
 
 .nav a {
     padding-top: 0;
-    font-size: 42px;
+    font-size: 36px;
     text-align: center;
     text-decoration: none;
     color: white;
@@ -103,15 +103,15 @@ main {
 }
 
 .banner-img h1 {
-    font-size: 102px;
+    font-size: 100px;
     font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 0;
+    margin-bottom: 10px;
+    margin-top: 0px;
     padding-top: 100px;
 }
 
 .banner-img h2 {
-    font-size: 48px;
+    font-size: 44px;
     margin-bottom: 40px;
     margin-top: 0;
 }
@@ -119,8 +119,185 @@ main {
 .banner-img a {
     text-decoration: none;
     color: white;
-    font-size: 52px;
+    font-size: 48px;
     border: white 3px solid;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.banner-img a:hover {
+    font-size: 50px;
+}
+
+.button-grid {
+    width: 70%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
+}
+
+.button-grid a {
+    justify-self: center;
+    text-align: center;
+    background-color: #049344;
+    color: white;
+    text-decoration: none;
+    font-size: 46px;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 20px;
+    width: 320px;
+}
+
+
+/*.button-grid a:hover {
+    font-size: 48px;
+}**/
+
+.content h2 {
+    font-size: 65px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content-grid {
+    border-top: grey 1px solid;
+    border-bottom: grey 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 420px 420px 420px 420px 420px;
+    margin-bottom: 30px;
+}
+
+.textSide {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: white;
+}
+
+.textSide h3 {
+    font-size: 52px;
+    color: #A62035;
+    font-weight: 700;
+    margin: 0;
+}
+
+.textSide p {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.textSide a {
+    color: #049344;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.pictureSide {
+    position: relative;
+    overflow: hidden;
+}
+
+.pictureSide img {
+    width: 960px;
+    height: 620px;
+}
+
+.report img {
+    width: 100%;
+}
+
+.bot-content-grid {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bot-left {
+    text-align: center;
+    padding: 20px 150px;
+}
+
+.mid {
+    color: #A62035;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.leftleft {
+    width: 515px;
+}
+
+.bot-left img {
+    width: 337px;
+    height: 150px;
+}
+
+.bot-right {
+    margin-top: 20px;
+    margin-right: 100px;
+    padding: 0px 30px 20px;
+    border: #049344 5px solid;
+}
+
+.bot-right-cont {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.bot-right-cont p {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.outreach {
+    text-align: center;
+}
+
+footer {
+    background-color: #E6E6E6;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.mobOnly {
+    display: none;
+}
+
+.footNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footTitle {
+    font-size: 30px;
+}
+
+.footContent {
+    font-size: 28px;
+    color: #A62035;
+}
+
+.foot-logo {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.creds {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
 }
