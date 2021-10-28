@@ -93,8 +93,6 @@ main {
     padding-left: 40px;
 }
 
-
-
 .banner-img {
     text-align: center;
     background-image: url("../img/banner.jpg");
@@ -305,104 +303,107 @@ footer {
     font-weight: 400;
 }
 
+@media only screen and (max-width: 1625px) {
+    .nav {
+        height: 48px;
+        padding-top: 5px;
+        margin-bottom: 25px;
+    }
+    .nav a {
+        font-size: 34px;
+        padding-right: 21px;
+        padding-left: 21px;
+    }
+    .bot-right-cont {
+        grid-template-columns: 3fr 2fr;
+    }
+    .phone {
+        text-align: right;
+    }
+}
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width:1471px) {
+    .bot-right-cont p {
+        font-size: 28px;
+    }
+    .leftleft {
+        font-size: 26px;
+        padding-right: 120px;
+    }
+}
+
+@media only screen and (max-width: 1212px) {
     .logo {
         width: 700px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
-
     header {
         height: 210px;
     }
-
-    .nav {  
+    .nav {
         height: 44px;
-        padding-top: 5px; 
-        margin-bottom: 25px;
     }
-    
     .nav a {
         font-size: 27px;
-        padding-right: 21px;
-        padding-left: 21px;
     }
-
-    .banner-img{
+    .banner-img {
         height: 450px;
     }
-
-    .banner-img h1{
+    .banner-img h1 {
         padding-top: 80px;
         font-size: 95px;
     }
-
-    .banner-img h2{
+    .banner-img h2 {
         font-size: 42px;
     }
-
-    .banner-img a{
+    .banner-img a {
         font-size: 46px;
     }
-
     .button-grid {
         width: 90%;
     }
-
-    .button-grid a{
+    .button-grid a {
         width: 250px;
         font-size: 42px;
     }
-
-    .content h2{
+    .content h2 {
         font-size: 58px;
         margin-bottom: 24px;
     }
-
     .textSide h3 {
-        font-size: 42px; 
+        font-size: 42px;
     }
-
     .textSide {
-        
         padding-left: 100px;
         padding-right: 100px;
     }
-
-    .textSide p{
+    .textSide p {
         font-size: 32px;
         margin-top: 5px;
         margin-bottom: 10px;
     }
-
-    .textSide a{
+    .textSide a {
         font-size: 32px;
     }
-
-    .bot-left{
+    .bot-left {
         padding: 20px 20px;
     }
-
-    .bot-right{
+    .bot-right {
         margin-right: 50px;
     }
-
-    .bot-right-cont{
+    .bot-right-cont {
         grid-template-columns: 3fr 2fr;
     }
-
-    .bot-right-cont p{
+    .bot-right-cont p {
         font-size: 25px;
         margin-bottom: 15px;
     }
-
-    .foot-logo{
+    .foot-logo {
         margin-left: auto !important;
         margin-right: auto !important;
     }
-
-    .creds p{
+    .creds p {
         margin-bottom: 0;
     }
 }
