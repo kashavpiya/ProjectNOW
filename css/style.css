@@ -560,7 +560,7 @@ footer {
         display: none;
     }
     .mobOnly {
-        display: block;
+        display: inline;
     }
     .foot-logo {
         margin-left: 0px !important;
@@ -599,5 +599,40 @@ footer {
     }
     header {
         height: 170px;
+    }
+    .footNav {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .footNav a {
+        text-decoration: underline;
+    }
+    .content {
+        text-align: center;
+    }
+    .address {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .banner-img h1 {
+        font-size: 64px;
+    }
+    .banner-img h2 {
+        font-size: 30px;
+    }
+    .banner-img a {
+        font-size: 30px;
+    }
+    .banner-img {
+        height: 350px;
+    }
+    .button-grid {
+        grid-template-columns: 1fr;
+    }
+    .button-grid a {
+        padding: 10px;
+        margin-bottom: 12px;
     }
 }
