@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+        <script src="myscripts.js"></script>
 
 </head>
 
@@ -110,86 +111,9 @@
             </div>
         </div>
 
-        <footer>
-            <div class="footNav">
-                <div class="home">
-                    <a href="index.php" class="footTitle" style="color: black; text-decoration: none;"><span
-                            class="mobOnly">&gt; </span>Home</a>
-                </div>
-                <div class="about">
-                    <a href="#about" class="footTitle" style="color: black; text-decoration: none;"><span
-                            class="mobOnly">&gt; </span>About</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                </div>
-                <div class="partners">
-                    <a href="#partners" class="footTitle" style="color: black; text-decoration: none;"><span
-                            class="mobOnly">&gt; </span>Partners</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                </div>
-                <div class="advocacy">
-                    <a href="#advocacy" class="footTitle" style="color: black; text-decoration: none;"><span
-                            class="mobOnly">&gt; </span>Advocacy</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                </div>
-                <div class="services">
-                    <a href="#services" class="footTitle" style="color: black; text-decoration: none;"><span
-                            class="mobOnly">&gt; </span>Services</a>
-                </div>
-                <div class="impact">
-                    <a href="#impact" class="footTitle" style="color: black; text-decoration: none;"><span
-                            class="mobOnly">&gt; </span>Impact</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                    <a href="#sub-page" class="footContent hideMob"
-                        style="color: #A62035; text-decoration: none;">sub-page</a><br class="hideMob">
-                </div>
-                <div class="engagement">
-                    <a href="#engagement" class="footTitle" style="color: black; text-decoration: none;"><span
-                            class="mobOnly">&gt; </span>Engagement</a>
-                </div>
-
-            </div>
-            <div class="foot-logo logo hideMob">
-                <img src="img/logo.png">
-                <div class="logoName">
-                    <p class="title">Project NOW</p>
-                    <p class="subT">Community Action Agency</p>
-                </div>
-            </div>
-
-            <div class="mobOnly logoTx">
-                <a href="index.php" class="logoLink"><img src="img/logoTxts.png"
-                        alt="Project Now, Community Action Agency logo"></a>
-            </div>
-            <div class="creds">
-                <p> Copyright Project NOW <span class="hideMob">&nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; </span><span
-                        class="mobOnly"><br></span>Site by Augustana Web Guild</p>
-            </div>
-        </footer>
+        <?php include('includes/footer.html'); ?>
     </main>
 </body>
-<script>
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
-    }
-}
-</script>
+
 
 </html>

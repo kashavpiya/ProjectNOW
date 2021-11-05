@@ -85,12 +85,12 @@ main {
 
 .nav a {
     padding-top: 0;
-    font-size: 38px;
+    font-size: 34px;
     text-align: center;
     text-decoration: none;
     color: white;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .banner-img {
@@ -274,21 +274,62 @@ footer {
     padding-bottom: 10px;
 }
 
+
+/*** About page ***/
+
+.aboutpage {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.left-content {
+    padding-right: 50px;
+    border-right: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+.left-content h2 {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.left-content p {
+    font-size: 24px;
+}
+
+.left-content img {
+    width: 150px;
+}
+
+.right-content {
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.right-content a {
+    font-size: 24px;
+}
+
 .mobOnly {
     display: none;
 }
 
 .footNav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .footTitle {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .footContent {
-    font-size: 28px;
+    font-size: 20px;
     color: #A62035;
 }
 
@@ -301,6 +342,10 @@ footer {
     text-align: center;
     font-size: 22px;
     font-weight: 400;
+}
+
+.contact {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1625px) {
@@ -341,6 +386,15 @@ footer {
     .leftleft {
         font-size: 26px;
         padding-right: 120px;
+    }
+}
+
+@media only screen and (max-width: 1380px) {
+    .nav {
+        height: 44px;
+    }
+    .nav a {
+        font-size: 27px;
     }
 }
 
@@ -385,12 +439,6 @@ footer {
     header {
         height: 210px;
     }
-    .nav {
-        height: 44px;
-    }
-    .nav a {
-        font-size: 27px;
-    }
     .banner-img {
         height: 450px;
     }
@@ -422,10 +470,18 @@ footer {
         margin-bottom: 0;
     }
     .footTitle {
-        font-size: 26px;
+        font-size: 25px;
     }
     .footContent {
-        font-size: 26px;
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1172px) {
+    .nav a {
+        font-size: 24px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -442,11 +498,6 @@ footer {
 @media only screen and (max-width: 1031px) {
     .nav {
         height: 43px;
-    }
-    .nav a {
-        font-size: 24px;
-        padding-left: 18px;
-        padding-right: 18px;
     }
     .bot-right-cont {
         grid-template-columns: 1fr;
@@ -477,6 +528,22 @@ footer {
     }
     .footContent {
         font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 984px) {
+    .nav a {
+        font-size: 22px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    .nav a {
+        font-size: 21px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
@@ -708,16 +775,16 @@ footer {
     }
 }
 
-@media only screen and (max-width: 430px) {}
-
-@media only screen and (max-width: 400px) {
-    .banner-img h1 {
-        padding-top: 60px;
-    }
-    .bot-left img {
-        width: 300px;
-    }
-    header {
-        height: 85px;
+@media only screen and (max-width: 420px) {
+    @media only screen and (max-width: 400px) {
+        .banner-img h1 {
+            padding-top: 60px;
+        }
+        .bot-left img {
+            width: 300px;
+        }
+        header {
+            height: 85px;
+        }
     }
 }
