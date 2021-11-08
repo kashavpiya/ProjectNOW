@@ -313,6 +313,17 @@ footer {
 
 .right-content a {
     font-size: 24px;
+    text-decoration: none;
+    border-bottom: 1px solid #d7d2cb;
+    font-weight: 500;
+    color: #0067b9;
+    transition: all .3s ease;
+    background-color: transparent;
+}
+
+.right-content a:hover {
+    background-color: #dae6f0;
+    color: #0b395e;
 }
 
 .mobOnly {
@@ -346,6 +357,34 @@ footer {
 
 .contact {
     text-align: center;
+}
+
+
+/**Contact page**/
+
+.contactPage {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.contactPage h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contactPage h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contactPage h4 {
+    font-size: 26px;
+}
+
+.contactPage p {
+    font-size: 22px;
 }
 
 @media only screen and (max-width: 1625px) {
@@ -669,6 +708,25 @@ footer {
     .footNav {
         margin-bottom: 20px;
     }
+    .aboutpage {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left-content {
+        padding-right: 0;
+        border-right: 0;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .right-content {
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .contactPage {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -708,6 +766,14 @@ footer {
 @media only screen and (max-width: 705px) {
     header {
         height: 140px;
+    }
+    .aboutpage {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .contactPage {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
@@ -760,6 +826,14 @@ footer {
     header {
         height: 110px;
         padding-left: 10px;
+    }
+    .aboutpage {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .contactPage {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
 

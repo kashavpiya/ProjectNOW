@@ -15,7 +15,7 @@
 
 <body>
     <?php include('includes/header.html'); ?>
-        <div class="about">
+        <div class="aboutpage">
             <div class="left-content"><h2>About Us</h2>
                 <p>Project Now is one of over 1000 Community Action Agencies that cover nearly every county in America. Community Action Agencies sprang from the Economic Opportunity Act of 1964 officially declaring a War on Poverty. Project NOW provides a broad range of services to help meet basic needs and achieve self sufficiency.</p>
                 <img src="img/logo.png">
@@ -28,7 +28,7 @@
                 <a href="#customer-stories">Customer Stories</a><br><br>
                 <a href="#promise">The Promise of Community Action</a><br><br>
                 <a href="#caa">What is a Community Action Agency</a><br><br>
-                <a href="#Continuum">Continuum of Care</a><br>
+                <a href="#Continuum">Continuum of Care</a><br><br>
                 
             </div>
         </div>
