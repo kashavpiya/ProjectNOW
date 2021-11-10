@@ -285,6 +285,10 @@ footer {
     margin-bottom: 30px;
 }
 
+.aboutpage h3 {
+    font-size: 30px;
+}
+
 .left-content {
     padding-right: 50px;
     border-right: 1px solid grey;
