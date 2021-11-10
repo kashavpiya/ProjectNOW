@@ -22,13 +22,14 @@
                 <p><strong>Our Mission: </strong>We strengthen communities by helping people help themselves and one another.</p>
             </div>
             <div class="right-content">
-                <a href="#news">In the News</a><br><br>
-                <a href="#agency-brochure">Agency Brochure</a><br><br>
-                <a href="#annual-reports">Annual Reports</a><br><br>
-                <a href="#customer-stories">Customer Stories</a><br><br>
-                <a href="#promise">The Promise of Community Action</a><br><br>
-                <a href="#caa">What is a Community Action Agency</a><br><br>
-                <a href="#Continuum">Continuum of Care</a><br><br>
+                <a href="news.php">In the News</a><br><br>
+                <a href="docs/agency-brochure.pdf" target="_blank">Agency Brochure</a><br><br>
+                <a href="reports.php">Annual Reports</a><br><br>
+                <a href="docs/success-stories.pdf" target="_blank">Customer Stories</a><br><br>
+                <a href="docs/Project-NOW-history.pdf" target="_blank">Project NOW History</a><br><br>
+                <a href="docs/thepromisep.pdf" target="_blank">The Promise of Community Action</a><br><br>
+                <a href="docs/whatisacaa.pdf" target="_blank">What is a Community Action Agency</a><br><br>
+                <a href="docs/continuum-of-care.pdf" target="_blank">Continuum of Care</a><br><br>
                 
             </div>
         </div>
