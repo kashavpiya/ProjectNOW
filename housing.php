@@ -29,6 +29,10 @@
                 <h3>Housing Rehab</h3>
                 <p>Homeowners who are at or below 50% Area Median Income may apply for available Rehab Programs. These programs address necessary repairs such as leaky roofs, plumbing issues, electrical problems, handicapped accessible bathrooms, and ramps.</p>
                 
+                <div style="text-align: center;">
+                    <img src="img/image_housing1.jpg" class="good1">
+                    </div>
+                
                 <h3>Homebuyer Assistance</h3>
                 <p>Project NOW Housing Division offers a variety of programs to the residents of Rock Island, Henry and Mercer counties. These programs, funded primarily by the Illinois Housing Development Authority (IHDA), bring essential services to help improve the communities we serve.</p>
                 <p>Project NOW offers HUD Approved Homebuyer Education Classes. housing photo 1Please call Project NOW at 309-793-6391 Ext. 126 or Rock Island Economic Growth Corp. at 309-788-6311 to reserve your seat for the next available class. They are free and open to the public.</p>
@@ -42,6 +46,10 @@
                     <li>Must be able to put a "minimum" of $1,000 toward the down payment</li><br>
                     <li>House being purchased cannot value over $130,000 after rehab</li>
                 </ul>
+                
+                <div style="text-align: center;">
+                    <img src="img/image_housing2.jpg" class="good1">
+                    </div>
                 
                 <h3>The Homebuyer Purchase Assistance Program with Rehab provides:</h3>
                 <p>$1,000 to $8,000 toward the down payment<br>
