@@ -38,9 +38,9 @@
             </div>
             <div class="right-content">
                 <a href="communityservices.php">Community Services</a><br><br>
-                <a href="#eviction">Eviction Diversion Program</a><br><br>
-                <a href="#goodthings">Good Things NOW Store</a><br><br>
-                <a href="#headstart">Head Start</a><br><br>
+                <a href="eviction.php">Eviction Diversion Program</a><br><br>
+                <a href="goodthings.php">Good Things NOW Store</a><br><br>
+                <a href="headstart.php">Head Start</a><br><br>
                 <a href="#homeless">Homeless Services</a><br><br>
                 <a href="#housing">Housing Programs</a><br><br>
                 <a href="#property">Property Rentals</a><br><br>

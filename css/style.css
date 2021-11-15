@@ -397,6 +397,26 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.good {
+    width: 325px !important;
+    height: 200px;
+}
+
+.good1 {
+    width: 200px !important;
+    height: 150px;
+}
+
+.locate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headstarters {
+    width: 200px !important;
+    height: 200px;
+}
+
 @media only screen and (max-width: 1625px) {
     .nav {
         height: 48px;
@@ -803,6 +823,10 @@ footer {
         padding-right: 50px;
     }
     .bot-right-cont {
+        grid-template-columns: 1fr;
+    }
+    .locate {
+        display: grid;
         grid-template-columns: 1fr;
     }
 }
