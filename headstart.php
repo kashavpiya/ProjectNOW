@@ -108,8 +108,8 @@
                 <a href="eviction.php">Eviction Diversion Program</a><br><br>
                 <a href="goodthings.php">Good Things NOW Store</a><br><br>
                 <a href="headstart.php">Head Start</a><br><br>
-                <a href="#homeless">Homeless Services</a><br><br>
-                <a href="#housing">Housing Programs</a><br><br>
+                <a href="homelessservices.php">Homeless Services</a><br><br>
+                <a href="housing.php">Housing Programs</a><br><br>
                 <a href="#property">Property Rentals</a><br><br>
                 <a href="https://www.ridetherim.org" target="_blank">RIM Rural Public Transit</a><br><br>
                 <a href="#senior">Senior Services</a><br><br>

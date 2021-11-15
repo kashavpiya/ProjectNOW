@@ -417,6 +417,10 @@ footer {
     height: 200px;
 }
 
+.left-content li {
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 1625px) {
     .nav {
         height: 48px;
