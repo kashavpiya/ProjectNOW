@@ -19,8 +19,35 @@
             <div class="left-content">
                 <h2>Housing</h2>
                 <p>Project NOW is committed to Housing and we offer a variety of housing programs to the residents of Rock Island, Henry, and Mercer counties, including:</p>
+                <ul>
+                    <li>Over 90 units of <strong>Affordable Housing Rentals</strong> <a href="#property">(more information)</a></li><br>
+                    <li>Assistance with <strong>Rent and Deposit Payments</strong> <a href="https://www.projectnow.org/information.htm#rent">(more information)</a></li><br>
+                    <li><strong>Homeless Services</strong> and <strong>Transitioal Housing</strong> <a href="homelessservices.php">(more information)</a></li><br>
+                    <li><strong>Weatherization</strong> to keep your home energy efficient <a href="#weatherization">(more information)</a></li>
+                </ul>
+            
+                <h3>Housing Rehab</h3>
+                <p>Homeowners who are at or below 50% Area Median Income may apply for available Rehab Programs. These programs address necessary repairs such as leaky roofs, plumbing issues, electrical problems, handicapped accessible bathrooms, and ramps.</p>
                 
+                <h3>Homebuyer Assistance</h3>
+                <p>Project NOW Housing Division offers a variety of programs to the residents of Rock Island, Henry and Mercer counties. These programs, funded primarily by the Illinois Housing Development Authority (IHDA), bring essential services to help improve the communities we serve.</p>
+                <p>Project NOW offers HUD Approved Homebuyer Education Classes. housing photo 1Please call Project NOW at 309-793-6391 Ext. 126 or Rock Island Economic Growth Corp. at 309-788-6311 to reserve your seat for the next available class. They are free and open to the public.</p>
                 
+                <h3>Homebuyer Purchase Assistance Program with Rehab</h3>
+                <p>This HUD Approved Homebuyer Class is the first requirement to becoming eligible for all of the IHDA Homebuyer Assistance Programs. The other requirements are:</p>
+                <ul>
+                    <li>Pre-Purchase Counseling and Homebuyer Application must be arranged with Project NOW</li><br>
+                    <li>Homebuyer must be at or below 80% Area Median Income</li><br>
+                    <li>Cannot already own a home</li><br>
+                    <li>Must be able to put a "minimum" of $1,000 toward the down payment</li><br>
+                    <li>House being purchased cannot value over $130,000 after rehab</li>
+                </ul>
+                
+                <h3>The Homebuyer Purchase Assistance Program with Rehab provides:</h3>
+                <p>$1,000 to $8,000 toward the down payment<br>
+                    $2,000 toward closing costs<br>
+                    Up to $28,500 in repairs and updates before move-in<br>
+                    This is a 0% forgivable loan for 5 or 10 years depending on the increased value after rehab.</p>
                 
             </div>
             <div class="right-content">
