@@ -98,7 +98,7 @@
                 <a href="headstart.php">Head Start</a><br><br>
                 <a href="homelessservices.php">Homeless Services</a><br><br>
                 <a href="housing.php">Housing Programs</a><br><br>
-                <a href="#property">Property Rentals</a><br><br>
+                <a href="rentals.php">Property Rentals</a><br><br>
                 <a href="https://www.ridetherim.org" target="_blank">RIM Rural Public Transit</a><br><br>
                 <a href="#senior">Senior Services</a><br><br>
                 <a href="#utility">Utility Assistance</a><br><br>
